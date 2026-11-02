@@ -89,6 +89,8 @@ h1, h2, h3 {
 
 .section { padding-block: var(--space-section); }
 .section--nude { background: var(--nude); }
+.section--green { background: var(--ink); }
+.section--green .section__title { color: var(--bg); }
 .section__title {
   text-align: center; max-width: 22ch; margin: 0 auto clamp(3rem, 6vw, 5rem);
   font-size: clamp(1.9rem, 4vw, 2.9rem);
